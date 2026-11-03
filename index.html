@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>test</title>
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <main>
+        <!-- Show current date -->
+        <section class="getTime mt-5">
+            <button class="btn btn-primary d-block m-auto mt-5" id="show_date">Show Date</button>
+            <h2 class="text-center" id="date_placeholder"></h2>
+        </section>
+
+        <!-- Lamp ON/OFF -->
+        <section class="lampTest d-flex justify-content-center align-items-center mt-5">
+            <button class="btn btn-danger" id="off">Turn OFF</button>
+            <img src="images/pic_bulboff.gif" alt="Lamp Image" id="lamp">
+            <button class="btn btn-success" id="on">Turn ON</button>
+        </section>
+    </main>
+
+    <!-- Bootstrap scripts -->
+    <script src="js/jquery.slim.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Main logic -->
+    <script src="js/logic.js"></script>
+</body>
+
+</html>
